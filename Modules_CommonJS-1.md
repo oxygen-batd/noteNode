@@ -4,9 +4,15 @@
 
 ### Định nghĩa
 Trong Node.js, mỗi file JavaScript được xem như là một module. Mỗi module có một phạm vi riêng biệt, giúp tránh xung đột biến toàn cục và hỗ trợ tái sử dụng mã nguồn.
+Tham khảo: 
+
+<img width="464" alt="image" src="https://github.com/system01no2l/noteNode/assets/86253573/198aaba5-8470-4694-b8fa-163ba59b30c6">
 
 ### Xuất và nhập (Exports and Imports)
-Node.js sử dụng hệ thống module dựa trên CommonJS. Để xuất các giá trị từ một module, bạn sử dụng `module.exports` hoặc `exports`. Để nhập các giá trị từ một module khác, bạn sử dụng `require()`.
+Node.js sử dụng hệ thống module dựa trên CommonJS. Để xuất các giá trị từ một module, bạn sử dụng `module.exports` hoặc `exports`. Để nhập các giá trị từ một module khác, bạn sử dụng `require()`. Thông tin về biến require trong lớp commonJS module (không phải là global).
+
+<img width="477" alt="image" src="https://github.com/system01no2l/noteNode/assets/86253573/87ee0c56-32ec-4823-8738-3e6ff2b7ab17">
+
 
 ## 2. `exports` và `module.exports`
 
